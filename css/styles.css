@@ -74,6 +74,13 @@ header {
   word-wrap: break-word;
 }
 
+/* Footer styling */
+footer {
+  order: 4;
+  height: 100%;
+  bottom: 0;
+}
+
 /* Media query section */
 @media screen and (max-width: 400px) {
   .auxilliary-image {
