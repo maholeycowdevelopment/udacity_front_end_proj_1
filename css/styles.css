@@ -8,24 +8,35 @@ img {
   max-width: 100%;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5, 
+h6 {
   font-family: 'Roboto', sans-serif;
 }
 
 /* Header specific styling */
-.header {
+header {
   margin: 10px 5px;
+  width: 100%;
 }
 
 .logo {
   float: left;
   width: 75px;
   height: auto;
+  position: relative;
+  left: 0;
 }
 
 .header-info{
   float: right;
   text-align: end;
+  position: relative;
+  right: 0;
 }
 
 /* Main content specific styling */
@@ -115,7 +126,7 @@ p, h1, h2, h3, h4, h5, h6 {
   }
 
   .content-container,
-  .header {
+  header {
     max-width: 800px;
     margin: auto;
   }
